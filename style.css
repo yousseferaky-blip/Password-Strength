@@ -1,0 +1,73 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Container{
+    width: 450px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.Container h1{
+ color: slategray;
+}
+
+.Input-Box{
+    position: relative;
+}
+
+#input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #777;
+    padding: 0 10px;
+    color: rgb(28, 32, 32);
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    outline: none;
+}
+
+.showhide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    cursor: pointer;
+    color: #777;
+}
+
+.Title{
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  display: none;
+}
+
+.text{
+    margin-left: 10px;
+    letter-spacing: 1.3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.active{
+    margin-top: 15px;
+    display: flex;
+}
+
+
+
+
+
+
+
